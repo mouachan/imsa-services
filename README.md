@@ -25,3 +25,4 @@ oc apply -f ./manifest/imsa-services.yml
 ## get order-services endpoint 
 ```
 oc get route imsa-services --template={{.spec.host}}
+```
